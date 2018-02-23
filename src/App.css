@@ -1,0 +1,85 @@
+.main_section{
+  background-color: white ;
+}
+
+.main_section_logo{
+  background-color:wheat ;
+  text-align: center;
+
+}
+.login_area{
+  background-color: palevioletred ;
+}
+.form_inline{
+  text-align: center;
+  background-color: lightpink;
+  height: 300px;
+}
+.form_group{
+margin-bottom: -20px;
+}
+
+
+
+.signup_sketch{
+  position:relative;
+  text-align: center;
+  height: 400px;
+  width: 800px;
+  padding: 100px 0 120px;
+  z-index: 1;
+  background: lightblue;
+  margin-top: 40px;
+  left: 250px;
+
+}
+.signup_form{
+  height: 200px;
+  color: #7e8890;
+  background: #071524;
+}
+
+.form_control{
+  text-align: center;
+  font-size: 16px;
+
+  height: 40px;
+  width: 200px;
+
+}
+
+
+.main_area{
+  height: 500px;
+  width: 800px;
+  background-color: wheat;
+  position: absolute;
+  left: 250px;
+}
+
+.sidebar{
+  position: fixed;
+  background-color: red;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  height: 200px;
+}
+.logo{
+}
+
+.com_name{
+  text-align: center;
+}
+
+.nav_list{
+  text-align: center;
+  padding: 20px;
+}
+.butt{
+  background-color: darkcyan;
+  margin-left: 20px;
+  height: 45px;
+  width: 100px;
+  font-size: 15px;
+}
