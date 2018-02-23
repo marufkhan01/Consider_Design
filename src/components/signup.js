@@ -35,9 +35,12 @@ class SignUp extends Component {
         console.log(this.props);
         return(
         <div className="signup_sketch">
-            <h2>Welcome to free consider design</h2>
-            <p>Enter your name and email address for free regitration.Thank you for using consider design.</p>
-            <div className="signup_form">
+            <div className="sketch_logo">
+                <img className="logo" src={require("../image/logo.png")} alt=""/>
+                <h2>Welcome to free consider design</h2>
+                <p>Enter your name and email address for free regitration.Thank you for using consider design.</p>
+            </div>
+                <div className="signup_form">
                 <input
                     className="form-control"
                     type="text"
@@ -57,7 +60,7 @@ class SignUp extends Component {
                     onChange={ event => this.setState({password: event.target.value})}
                 /> <br/> <br/>
                 <button
-                    className="form_control"
+                    className="form-control"
                     type="button"
                     onClick={() => this.SignUp()}
                     >

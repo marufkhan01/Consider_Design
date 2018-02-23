@@ -1,14 +1,21 @@
 .main_section{
   background-color: white ;
+  height: 600px;
+  width: 800px;
 }
 
 .main_section_logo{
-  background-color:wheat ;
+  background-color:#eed8c9 ;
   text-align: center;
 
+
+}
+.logo1{
+  height: 80px;
+  width: 100px;
 }
 .login_area{
-  background-color: palevioletred ;
+  background-color: #a49592 ;
 }
 .form_inline{
   text-align: center;
@@ -28,9 +35,27 @@ margin-bottom: -20px;
   width: 800px;
   padding: 100px 0 120px;
   z-index: 1;
-  background: lightblue;
+  background: #071524;
   margin-top: 40px;
   left: 250px;
+
+}
+
+.logo{
+
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 70px;
+  height: 80px;
+  background-repeat: no-repeat;
+}
+
+h2,p{
+  color: #ffffff;
 
 }
 .signup_form{
@@ -39,11 +64,10 @@ margin-bottom: -20px;
   background: #071524;
 }
 
-.form_control{
+.form-control{
   text-align: center;
   font-size: 16px;
-
-  height: 40px;
+  height: 30px;
   width: 200px;
 
 }

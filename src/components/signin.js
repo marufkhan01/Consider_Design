@@ -35,7 +35,9 @@ class SignIn extends Component {
             <div className="main_section">
                 <div className="row column text center">
                     <h1>
-                        <div className="main_section_logo">Consider design is a toll to get clients feedback.
+                        <div className="main_section_logo">
+                            <img className="logo1" src={require("../image/logo.png")} alt=""/>
+                            <h2 className="text">Consider design is a toll to get clients feedback.</h2>
                             <p className="text"> Makes your process fast.</p>
                         </div>
                     </h1>
