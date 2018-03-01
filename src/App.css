@@ -132,6 +132,11 @@ h2,p{
 }
 
 .display{
+  height: 100px;
+  width: 90px;
+  margin-left: 400px;
+  margin-top: -130px ;
+
 
 }
 .download_area{

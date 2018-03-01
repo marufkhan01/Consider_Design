@@ -13,11 +13,11 @@ class Dragdrop extends Component{
     }
     onDrop(acceptedFiles) {
         console.log('Accepted files: ', acceptedFiles[0].name);
-        var filesToBeSent=this.state.filesToBeSent;
+        let filesToBeSent=this.state.filesToBeSent;
         if(filesToBeSent.length < this.state.printcount){
             filesToBeSent.push(acceptedFiles);
-            var filesPreview=[];
-            for(var i in filesToBeSent){
+            let filesPreview=[];
+            for(let i in filesToBeSent){
                 filesPreview.push(
                     <div>
                         {filesToBeSent[i][0].name}
@@ -25,9 +25,6 @@ class Dragdrop extends Component{
                 )
             }
             this.setState({filesToBeSent,filesPreview});
-        }
-        else{
-            alert("You have reached the limit of printing files at a time")
         }
     }
     render(){
